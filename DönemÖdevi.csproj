@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60722872-B256-4902-AF2D-3F31B666DEE0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DönemÖdevi</RootNamespace>
+    <AssemblyName>DönemÖdevi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>4417114_desktop_pc_server_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\ahk\AnaMenü.cs">
+      <SubType>Form</SubType>
+      <Link>AnaMenü.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\ahk\AnaMenü.Designer.cs">
+      <DependentUpon>AnaMenü.cs</DependentUpon>
+      <Link>AnaMenü.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\bestScores.cs">
+      <Link>bestScores.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\bestScores.Designer.cs">
+      <DependentUpon>bestScores.cs</DependentUpon>
+      <Link>bestScores.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\Bilgisayar Toplama.cs">
+      <SubType>Form</SubType>
+      <Link>Bilgisayar Toplama.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\Bilgisayar Toplama.Designer.cs">
+      <DependentUpon>Bilgisayar Toplama.cs</DependentUpon>
+      <Link>Bilgisayar Toplama.Designer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\oyunKlavye.cs">
+      <SubType>Form</SubType>
+      <Link>oyunKlavye.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\OneDrive\Masaüstü\oyunKlavye.Designer.cs">
+      <DependentUpon>oyunKlavye.cs</DependentUpon>
+      <Link>oyunKlavye.Designer.cs</Link>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Masaüstü\ahk\AnaMenü.resx">
+      <DependentUpon>AnaMenü.cs</DependentUpon>
+      <Link>AnaMenü.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Masaüstü\bestScores.resx">
+      <DependentUpon>bestScores.cs</DependentUpon>
+      <Link>bestScores.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Masaüstü\Bilgisayar Toplama.resx">
+      <DependentUpon>Bilgisayar Toplama.cs</DependentUpon>
+      <Link>Bilgisayar Toplama.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Masaüstü\oyunKlavye.resx">
+      <DependentUpon>oyunKlavye.cs</DependentUpon>
+      <Link>oyunKlavye.resx</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="4417114_desktop_pc_server_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DönemÖdevi.Library\DönemÖdevi.Library.csproj">
+      <Project>{20BA8E8C-D786-4A23-B222-CA40FE2CB856}</Project>
+      <Name>DönemÖdevi.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

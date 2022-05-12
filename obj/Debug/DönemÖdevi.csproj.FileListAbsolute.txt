@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\bin\Debug\DönemÖdevi.exe.config
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\bin\Debug\DönemÖdevi.exe
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\bin\Debug\DönemÖdevi.pdb
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.AnaMenü.resources
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.BilgisayarToplama.resources
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.Properties.Resources.resources
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.csproj.GenerateResource.cache
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.exe
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.pdb
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\bin\Debug\DönemÖdevi.Library.dll
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\bin\Debug\DönemÖdevi.Library.pdb
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.csproj.CopyComplete
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.oyunKlavye.resources
+C:\Users\user\source\repos\DönemÖdevi\DönemÖdevi\obj\Debug\DönemÖdevi.bestScores.resources
